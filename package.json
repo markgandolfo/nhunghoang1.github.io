@@ -3,7 +3,8 @@
     "name": "emily-resume",
     "version": "5.0.5",
     "scripts": {
-        "start": "gulp watch"
+        "start": "gulp watch",
+        "deploy": "git push production master"
     },
     "description": "This is a simple, yet elegant resume and CV.",
     "keywords": [
@@ -15,10 +16,6 @@
         "template"
     ],
     "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "nhung@nhunghoang.com"
-    },
     "license": "MIT",
     "author": "Emily Hoang",
     "contributors": [
@@ -35,6 +32,7 @@
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
+        "fstream": ">=1.0.12",
         "browser-sync": "2.26.3",
         "del": "4.0.0",
         "gulp": "4.0.0",
